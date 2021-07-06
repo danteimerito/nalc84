@@ -1,5 +1,5 @@
 
-<?php get_header(); ?>
+<?php get_header();  ?>
 
 <div class="container nav-spacer">
     <div class="row">
