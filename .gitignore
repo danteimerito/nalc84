@@ -2,7 +2,7 @@ artwork
 
 .git/
 notes.txt
-
+.gitignore
 
 # Logs
 logs
