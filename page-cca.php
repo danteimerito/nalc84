@@ -12,17 +12,13 @@
     <?php
         $ourCurrentPage = get_query_var('paged');
         $post_args=array(
-            // 'post_type'                => 'any',
-            'post_type'                => array('documents'),
-            'post_status'              => 'publish',
+            'post_type' => 'any', 
+            'post_status' => 'publish', 
+            'category_name' => 'cca',
             'posts_per_page'           => 8,
-            'orderby'                  => 'title',
+            'orderby'                  => 'date',
             'order'                    => 'DESC',
-            // 'paged' => $ourCurrentPage
-
-
-
-            'paged' => get_query_var('paged') ? get_query_var('paged') : 1 
+            'paged' => $ourCurrentPage
         );
     
         $post_my_query = new WP_Query($post_args);
@@ -56,7 +52,7 @@
                         <div class="col l3 m12 s12 item-button-contain">
                             <div class="details-btn">
                                 <a href="<?php the_permalink(); ?>">
-                                    <div class="waves-effect waves-light btn right">View</div>
+                                    <div class="waves-effect waves-light btn right">Read More</div>
                                 </a>
                             </div>
                         </div>
@@ -70,7 +66,7 @@
 
             <?php endwhile;  ?>
             <div class="contain-pagination">
-            <?php echo paginate_links(array(
+                <?php echo paginate_links(array(
                     'total' => $post_my_query->max_num_pages,
                     // 'base'          => str_replace( 9999999999, '%#%', esc_url( get_pagenum_link( 9999999999 ) ) ),
                     // 'format'        => '?paged=%#%',
