@@ -12,7 +12,7 @@
      
     <?php 
         // Most recent  post in full
-        get_template_part( 'template-parts/presidents-report', 'main');
+        get_template_part( 'template-parts/jobbidding', 'resources');
     ?>
 
     
@@ -21,7 +21,7 @@
     <hr/>
         <?php 
             //  Loop of other president's reports
-            get_template_part( 'template-parts/presidents-report', 'suggested');
+            get_template_part( 'template-parts/jobbidding', 'feed');
         ?>
     </div>
     

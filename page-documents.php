@@ -17,7 +17,7 @@
             'post_status'              => 'publish',
             'posts_per_page'           => 8,
             'orderby'                  => 'title',
-            'order'                    => 'DESC',
+            'order'                    => 'ASC',
             // 'paged' => $ourCurrentPage
 
 
