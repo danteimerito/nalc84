@@ -9,6 +9,8 @@
 
 
 <div class="container nav-spacer">
+
+    <h1> Job Bidding </h1>
      
     <?php 
         // Most recent  post in full

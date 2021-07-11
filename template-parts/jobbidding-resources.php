@@ -6,7 +6,7 @@
             'category_name' => 'bid-resource',
             // 'category__in' => array($category->term_id),
             'post_status'              => 'publish',
-            'posts_per_page'           => 3,
+            'posts_per_page'           => 9,
             'orderby'                  => 'date',
             'order'                    => 'DESC',
             // 'paged'                    => $ourCurrentPage,
