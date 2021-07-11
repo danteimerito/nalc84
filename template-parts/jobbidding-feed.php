@@ -1,7 +1,8 @@
 <?php
         $ourCurrentPage = get_query_var('paged');
         $post_args=array(
-            'post_type'                => array('presidents-report'),
+            'post_type'                => array('any'),
+            'category_name' => 'covid-19',
             'post_status'              => 'publish',
             'posts_per_page'           => 1,
             'orderby'                  => 'date',

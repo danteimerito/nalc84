@@ -2,7 +2,8 @@
         $ourCurrentPage = get_query_var('paged');
         $currentID = get_the_ID(); // get current post ID and convert it into a variable
         $post_args=array(
-            'post_type'                => array('presidents-report'),
+            'post_type'                => array('any'),
+            'category_name' => 'covid-19',
             'post_status'              => 'publish',
             'posts_per_page'           => 3,
             'orderby'                  => 'date',
