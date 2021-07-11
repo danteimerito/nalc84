@@ -18,16 +18,15 @@
     
 
     <div class="row"> 
-    <hr/>
+        <hr/>
         <?php 
             //  Loop of other president's reports
             get_template_part( 'template-parts/jobbidding', 'feed');
         ?>
     </div>
-    
+
 
     
-
 </div>
 
 
