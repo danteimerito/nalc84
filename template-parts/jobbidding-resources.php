@@ -3,7 +3,8 @@
         $currentID = get_the_ID(); // get current post ID and convert it into a variable
         $post_args=array(
             'post_type'                => array('any'),
-            'category_name' => 'covid-19',
+            'category_name' => 'job-bidding',
+            'category__in' => array($category->term_id),
             'post_status'              => 'publish',
             'posts_per_page'           => 3,
             'orderby'                  => 'date',
