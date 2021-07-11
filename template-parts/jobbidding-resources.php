@@ -3,15 +3,15 @@
         $currentID = get_the_ID(); // get current post ID and convert it into a variable
         $post_args=array(
             'post_type'                => array('any'),
-            'category_name' => 'job-bidding',
-            'category__in' => array($category->term_id),
+            'category_name' => 'bid-resource',
+            // 'category__in' => array($category->term_id),
             'post_status'              => 'publish',
             'posts_per_page'           => 3,
             'orderby'                  => 'date',
             'order'                    => 'DESC',
             // 'paged'                    => $ourCurrentPage,
-            'offset'                   => 1,
-            'post__not_in' => array( $currentID )     
+            // 'offset'                   => 1,
+            // 'post__not_in' => array( $currentID )     
         );
     
         $post_my_query = new WP_Query($post_args);
