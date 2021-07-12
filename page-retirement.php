@@ -41,7 +41,7 @@
           <li>
             <div class="pub-image">
               <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/Preparing-for-Retirement.pdf" target="blank">
-                <img src="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/Preparing-for-Retirement.pdf" />
+                <img src="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/preparing-for-retirement.png" />
               </a>
             </div>
 
