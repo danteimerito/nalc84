@@ -1910,6 +1910,7 @@ blockquote {
 
 .wp-block-table.is-style-stripes {
   width: 100% !important;
+  margin: 0 !important;
 }
 
 .figure {
