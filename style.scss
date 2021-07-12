@@ -1690,5 +1690,8 @@ blockquote {
 }
 
 .wp-block-table.is-style-stripes {
-  width: 100%;
+  width: 100% !important;
+}
+.figure {
+  margin: 0 !important;
 }
