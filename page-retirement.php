@@ -11,17 +11,16 @@
 
 
 
-<div class="row">
-<div className="container nav-spacer">
-      <div className="row">
+<div class="container nav-spacer">
+      <div class="row">
         <h1>Retirement</h1>
 
-        <div className="col l5 m11">
+        <div class="col l5 m11">
           <h3>The Office of Personnel Management</h3>
           <p>The Office of Personnel Management (OPM) acts as the personnel office for retired letter carriers, and is the agency responsible for administering retirement, health and life insurance benefits. Before you call or write to OPM, be sure to have your Civil Service Annuity (CSA) number ready. OPM can be reached by retirees who have a CSA number by calling <a href="tel:888-767-6738">888-767-6738</a>  or <a href="tel:724-794-2005">724-794-2005</a>, 7:40 a.m.-5 p.m. Monday through Friday (Eastern time), or <a href="tel:202-606-0500">202-606-0500</a> in the Washington, DC, area. Mail your written inquiries to Office of Personnel Management, Retirement Operations Center, Boyers, PA 16017 (unless OPM has specified a different address for a specific action such as health benefits open season).</p>
         </div>
 
-        <div className="col l5 m11 offset-l1">
+        <div class="col l5 m11 offset-l1">
           <h3>Retirement Contact Information</h3>
           <p>The NALC Retirement Department can be reached by calling <a href="tel:800-424-5186">800-424-5186</a> (toll free) Monday, Wednesday or Thursday, 10 a.m.-Noon or 2 p.m.-4 p.m. (Eastern time), or by calling the NALC Headquarters switchboard at <a href="tel:202-393-4695">202-393-4695</a>  Monday through Friday, 9 a.m.-4:30 p.m. (Eastern time) and asking for the Retirement Department.</p>
 
@@ -30,58 +29,58 @@
 
       </div>
 
-      <div className="row publications">
+      <div class="row publications">
         <h2>Retirement Publications</h2>
         <ul>
           <li>
-            <div className="pub-image">
+            <div class="pub-image">
               <a href={pdf1} target="blank">
                 <Image fluid={data.pubQA.childImageSharp.fluid} />
               </a>
             </div>
-            <a href={pdf1} target="blank" className="waves-effect waves-light btn-small pub-button">View</a>
-            <a href={pdf1} className="waves-effect waves-light btn-small pub-button" download>Download</a>
-            <div className="pub-description">
+            <a href={pdf1} target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
+            <a href={pdf1} class="waves-effect waves-light btn-small pub-button" download>Download</a>
+            <div class="pub-description">
               Questions & Answers on FERS Federal Employees Retirement System
             </div>
           </li>
           <li>
-            <div className="pub-image">
+            <div class="pub-image">
               <a href={pdf2} target="blank">
                 <Image fluid={data.pubPreparingForRetirement.childImageSharp.fluid} />
               </a>
             </div>
 
-            <a href={pdf2} target="blank" className="waves-effect waves-light btn-small pub-button">View</a>
-            <a href={pdf2} className="waves-effect waves-light btn-small pub-button" download>Download</a>
+            <a href={pdf2} target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
+            <a href={pdf2} class="waves-effect waves-light btn-small pub-button" download>Download</a>
 
-            <div className="pub-description">
+            <div class="pub-description">
               Preparing For Retirement; Checklist for letter carriers during their final year at work</div>
 
           </li>
           <li>
-            <div className="pub-image">
+            <div class="pub-image">
               <a href={pdf3} target="blank">
                 <Image fluid={data.pubRetiredDies.childImageSharp.fluid} />
               </a>
             </div>
-            <a href={pdf3} target="blank" className="waves-effect waves-light btn-small pub-button">View</a>
-            <a href={pdf3} className="waves-effect waves-light btn-small pub-button" download>Download</a>
-            <div className="pub-description">
+            <a href={pdf3} target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
+            <a href={pdf3} class="waves-effect waves-light btn-small pub-button" download>Download</a>
+            <div class="pub-description">
               When a Retired Letter Carrier Dies...<br /> Step-by-step Instructions for Survivors to Ensure the Continuation of Benefits
             </div>
 
 
           </li>
           <li>
-            <div className="pub-image">
+            <div class="pub-image">
               <a href={pdf4} target="blank">
                 <Image fluid={data.pubActiveDies.childImageSharp.fluid} />
               </a>
             </div>
-            <a href={pdf4} target="blank" className="waves-effect waves-light btn-small pub-button">View</a>
-            <a href={pdf4} className="waves-effect waves-light btn-small pub-button" download>Download</a>
-            <div className="pub-description">
+            <a href={pdf4} target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
+            <a href={pdf4} class="waves-effect waves-light btn-small pub-button" download>Download</a>
+            <div class="pub-description">
               When an Active Letter Dies...<br /> Step-by-step Instructions for Survivors to Ensure the Payment of Benefits
               </div>
 
