@@ -1907,3 +1907,7 @@ blockquote {
   margin-right: 1rem;
   margin-top: 8px;
 }
+
+.wp-block-table.is-style-stripes {
+  width: 100%;
+}

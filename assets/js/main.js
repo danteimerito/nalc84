@@ -4,9 +4,6 @@
 //   });
 
 
-
-
-
 "use strict";
 
 var sideNav = document.getElementById('mobile-demo');
