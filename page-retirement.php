@@ -34,12 +34,11 @@
         <ul>
           <li>
             <div class="pub-image">
-              <a href={pdf1} target="blank">
-                <Image fluid={data.pubQA.childImageSharp.fluid} />
+              <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/RetirementGuide-FERS.pdf" target="blank">
+                <img src="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/questions-and-answers-on-fers.png" />
               </a>
             </div>
-            <a href={pdf1} target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
-            <a href={pdf1} class="waves-effect waves-light btn-small pub-button" download>Download</a>
+            <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/RetirementGuide-FERS.pdf" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
             <div class="pub-description">
               Questions & Answers on FERS Federal Employees Retirement System
             </div>
