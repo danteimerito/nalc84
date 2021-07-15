@@ -38,6 +38,12 @@
                         
                         <div class="item-text-contain">
                             <div>
+                                <div class="result-type">
+                                    <?php 
+                                        $post_type = get_post_type_object( get_post_type() ); 
+                                        echo $post_type->labels->singular_name.':';
+                                    ?>
+                                </div>
                                 <h2>
                                     <a href="<?php the_permalink();?>">
                                         <?php echo get_the_title( $post_my_query->ID );?>
