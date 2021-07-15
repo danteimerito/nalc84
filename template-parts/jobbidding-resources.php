@@ -50,7 +50,7 @@
                             <div class="col l12 m12 s12">
                                 <div class="details-btn">
                                     <a href="<?php the_permalink(); ?>">
-                                        <div class="waves-effect waves-light btn">Read More</div>
+                                        <div class="waves-effect waves-light btn">View Resource</div>
                                     </a>
                                 </div>
                             </div>
