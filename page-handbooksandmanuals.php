@@ -39,15 +39,17 @@
                         
                         <div class="item-text-contain">
                             <div>
-                                <h2>
+                                <h3>
                                     <a href="<?php the_permalink();?>">
                                         <?php echo get_the_title( $post_my_query->ID );?>
                                     </a>
-                                </h2>
+                                </h3>
+                                <div> 
+                    <a class="document-graphic" href="<?php the_field('file-upload') ?>" target="blank">
+                        <img src="<?php the_field('cover-photo'); ?>" />
+                    </a>
+                </div>
                                
-                                <p>
-                                    <?php echo get_the_excerpt( $post_my_query->ID ); ?>
-                                </p>
                             </div> 
                         </div>
                             
