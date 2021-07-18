@@ -1702,3 +1702,23 @@ blockquote {
 .nav-spacer .publications ul li {
   list-style-type: none !important;
 }
+
+.listing-with-graphic {
+  display: flex;
+}
+
+.document-graphic-small {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0rem 1rem 0;
+  img {
+    max-width: 120px;
+    padding-right: 2rem;
+    margin-left: 0;
+  }
+  .document-button {
+    position: absolute;
+    margin-top: -1rem;
+  }
+}

@@ -702,6 +702,7 @@ footer a:active {
 
 .publications ul {
   margin-top: 4rem;
+  margin-left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1919,4 +1920,33 @@ blockquote {
 
 .nav-spacer .publications ul li {
   list-style-type: none !important;
+}
+
+.listing-with-graphic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.document-graphic-small {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5rem 0rem 1rem 0;
+}
+
+.document-graphic-small img {
+  max-width: 120px;
+  padding-right: 2rem;
+  margin-left: 0;
+}
+
+.document-graphic-small .document-button {
+  position: absolute;
+  margin-top: -1rem;
 }
