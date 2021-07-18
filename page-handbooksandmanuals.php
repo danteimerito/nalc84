@@ -39,16 +39,19 @@
                         
                         <div class="item-text-contain">
                             <div class="listing-with-graphic">
-                                <h3>
-                                    <a href="<?php the_permalink();?>">
-                                        <?php echo get_the_title( $post_my_query->ID );?>
-                                    </a>
-                                </h3>
-                                <div> 
-                    <a class="document-graphic-small" href="<?php the_field('file-upload') ?>" target="blank">
-                        <img src="<?php the_field('cover-photo'); ?>" />
-                    </a>
-                </div>
+
+                            <div> 
+                                <a class="document-graphic-small" href="<?php the_field('file-upload') ?>" target="blank">
+                                    <img src="<?php the_field('cover-photo'); ?>" />
+                                </a>
+                            </div>
+
+                            <h3>
+                                <a href="<?php the_permalink();?>">
+                                    <?php echo get_the_title( $post_my_query->ID );?>
+                                </a>
+                            </h3>
+                                
                                
                             </div> 
                         </div>
