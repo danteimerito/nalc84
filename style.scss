@@ -1723,3 +1723,7 @@ blockquote {
     margin-top: -1rem;
   }
 }
+.results-text-col {
+  display: flex;
+  flex-direction: column;
+}
