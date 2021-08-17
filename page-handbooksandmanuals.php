@@ -41,7 +41,7 @@
                             <div class="listing-with-graphic">
 
                             <div> 
-                                <a class="document-graphic-small" href="<?php the_field('file-upload') ?>" target="blank">
+                                <a class="document-graphic-small" href="<?php the_permalink() ?>" target="blank">
                                     <img src="<?php the_field('cover-photo'); ?>" />
                                 </a>
                             </div>
