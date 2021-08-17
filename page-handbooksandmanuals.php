@@ -45,19 +45,18 @@
                                     <img src="<?php the_field('cover-photo'); ?>" />
                                 </a>
                             </div>
-
-                            <h3>
-                                <a href="<?php the_permalink();?>">
-                                    <?php echo get_the_title( $post_my_query->ID );?>
-                                </a>
-                            </h3>
-
-                            <p>
-                                <a href="<?php the_permalink();?>">
-                                    <?php echo get_the_content( $post_my_query->ID );?>
-                                </a>
-                            </p>
-                                
+                            <div class="results-text-col">
+                                <h3>
+                                    <a href="<?php the_permalink();?>">
+                                        <?php echo get_the_title( $post_my_query->ID );?>
+                                    </a>
+                                </h3>
+                                <p>
+                                    <a href="<?php the_permalink();?>">
+                                        <?php echo get_the_content( $post_my_query->ID );?>
+                                    </a>
+                                </p>
+                            </div> 
                                
                             </div> 
                         </div>
