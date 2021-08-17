@@ -1961,3 +1961,9 @@ blockquote {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+@media only screen and (max-width: 50rem) {
+  .results-text-col p {
+    display: none;
+  }
+}
