@@ -38,7 +38,7 @@
                         <div class="item-text-contain">
                             <div>
                                 <h2>
-                                    <a href="<?php get_field('url');?>">
+                                    <a href="<?php echo get_field('resourceurl');?>">
                                         <?php echo get_the_title( $post_my_query->ID );?>
                                     </a>
                                 </h2>
@@ -51,7 +51,7 @@
                             
                         <div class="col l3 m12 s12 item-button-contain">
                             <div class="details-btn">
-                                <a href="<?php get_field('url'); ?>">
+                                <a href="<?php echo get_field('resourceurl'); ?>">
                                     <div class="waves-effect waves-light btn right">Visit Site</div>
                                 </a>
                             </div>
