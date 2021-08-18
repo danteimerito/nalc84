@@ -112,7 +112,7 @@
 
                                             <ul id="dropdown1" class="dropdown-content">
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/reference/memberresources">Member Resources</a>
+                                                    <a href="<?php echo get_site_url() ?>/reference/externalresources">External Resources</a>
                                                 </li>
                                                 <li>
                                                     <a href="<?php echo get_site_url() ?>/reference/handbooksandmanuals">Handbooks & Manuals</a>
@@ -197,7 +197,7 @@
 
                                                     <div class="collapsed">
                                                         <span class="multi">Reference</span>
-                                                        <a href="<?php echo get_site_url() ?>/reference/memberresources/">Member Resources</a>
+                                                        <a href="<?php echo get_site_url() ?>/reference/externalresources/">External Resources</a>
                                                         <a href="<?php echo get_site_url() ?>/reference/handbooksandmanuals/">Handbooks & Manuals</a>
                                                         <a href="<?php echo get_site_url() ?>/reference/documents/">Documents</a>
                                                     </div>

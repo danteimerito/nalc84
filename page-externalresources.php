@@ -13,11 +13,11 @@
         $ourCurrentPage = get_query_var('paged');
         $post_args=array(
             // 'post_type'                => 'any',
-            'post_type'                => array('handbooks_manuals'),
+            'post_type'                => array('post', 'presidents-report'),
             'post_status'              => 'publish',
             'posts_per_page'           => 8,
-            'orderby'                  => 'title',
-            'order'                    => 'ASC',
+            'orderby'                  => 'date',
+            'order'                    => 'DESC',
             'paged' => $ourCurrentPage
         );
     
@@ -29,40 +29,30 @@
 
             ?>
 
-<div class="">
-
-
-<div class="item">
+            <div class="">
+            <div class="item">
                
                     <div class="row">
                         <div class="item-news-contain"> 
                         
                         <div class="item-text-contain">
-                            <div class="listing-with-graphic">
-
-                            <div> 
-                                <a class="document-graphic-small" href="<?php the_permalink() ?>" target="blank">
-                                    <img src="<?php the_field('cover-photo'); ?>" />
-                                </a>
-                            </div>
-                            <div class="results-text-col">
-                                <h3>
+                            <div>
+                                <h2>
                                     <a href="<?php the_permalink();?>">
                                         <?php echo get_the_title( $post_my_query->ID );?>
                                     </a>
-                                </h3>
-                                <p> 
-                                    <?php echo get_the_excerpt( $post_my_query->ID );?> 
-                                </p>
-                            </div> 
+                                </h2>
                                
+                                <p>
+                                    <?php echo get_the_excerpt( $post_my_query->ID ); ?>
+                                </p>
                             </div> 
                         </div>
                             
                         <div class="col l3 m12 s12 item-button-contain">
                             <div class="details-btn">
                                 <a href="<?php the_permalink(); ?>">
-                                    <div class="waves-effect waves-light btn right">View</div>
+                                    <div class="waves-effect waves-light btn right">Read More</div>
                                 </a>
                             </div>
                         </div>
@@ -70,18 +60,13 @@
                             
                     </div>
                 </div>
-
-
-
-
-            
               
             </div>
 
 
             <?php endwhile;  ?>
             <div class="contain-pagination">
-            <?php echo paginate_links(array(
+                <?php echo paginate_links(array(
                     'total' => $post_my_query->max_num_pages,
                     // 'base'          => str_replace( 9999999999, '%#%', esc_url( get_pagenum_link( 9999999999 ) ) ),
                     // 'format'        => '?paged=%#%',
