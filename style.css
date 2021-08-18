@@ -1950,6 +1950,7 @@ blockquote {
 .document-graphic-small .document-button {
   position: absolute;
   margin-top: -1rem;
+  margin-right: 1rem;
 }
 
 .results-text-col {
