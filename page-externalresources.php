@@ -38,9 +38,7 @@
                         <div class="item-text-contain">
                             <div>
                                 <h2>
-                                    <a href="<?php echo get_field('resourceurl');?>" target="_blank">
-                                        <?php echo get_the_title( $post_my_query->ID );?>
-                                    </a>
+                                    <?php echo get_the_title( $post_my_query->ID );?>
                                 </h2>
                                
                                 <p>
