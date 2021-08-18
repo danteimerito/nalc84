@@ -13,7 +13,7 @@
         $ourCurrentPage = get_query_var('paged');
         $post_args=array(
             // 'post_type'                => 'any',
-            'post_type'                => array('post', 'presidents-report'),
+            'post_type'                => array('externalresource'),
             'post_status'              => 'publish',
             'posts_per_page'           => 8,
             'orderby'                  => 'date',
@@ -52,7 +52,7 @@
                         <div class="col l3 m12 s12 item-button-contain">
                             <div class="details-btn">
                                 <a href="<?php the_permalink(); ?>">
-                                    <div class="waves-effect waves-light btn right">Read More</div>
+                                    <div class="waves-effect waves-light btn right">Visit Site</div>
                                 </a>
                             </div>
                         </div>
