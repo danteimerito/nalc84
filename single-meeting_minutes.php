@@ -5,15 +5,18 @@
     <div class="row">
         <div class="col l9">
 
+            <h3> <?php the_field('meeting_date'); ?> </h3>
+            
+            <h1><?php the_title(); ?></h1>
+            
+            <?php the_content(); ?> 
+
             <h5 class="byline">Published <?php the_time("F jS, Y"); ?> by 
                 <?php 
                     $display_name = get_the_author_meta( 'display_name', $post->post_author );
                     echo $display_name;
                 ?>
             </h5>
-            <h1><?php the_title(); ?></h1>
-            <h3> <?php the_field('meeting_date'); ?> </h3>
-            <?php the_content(); ?> 
             
         </div>
 
