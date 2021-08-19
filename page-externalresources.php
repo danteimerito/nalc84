@@ -37,9 +37,9 @@
                         
                         <div class="item-text-contain">
                             <div>
-                                <h2>
+                                <h3>
                                     <?php echo get_the_title( $post_my_query->ID );?>
-                                </h2>
+                                </h3>
                                
                                 <p>
                                     <?php echo get_the_excerpt( $post_my_query->ID ); ?>
