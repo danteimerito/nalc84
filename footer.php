@@ -32,7 +32,7 @@
                     <h4 class="white-text">Mailing Address</h4>
                 </div>
                 <p class="grey-text text-lighten-4 mailing-address">
-                <?php the_field('mailing_address') ?>
+                    <?php the_field('mailing_address') ?>
                     NALC Branch 84 <br />
                     841 California Avenue<br />
                     Pittsburgh, PA 15212<br />
