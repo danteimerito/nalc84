@@ -42,13 +42,6 @@
                     <h4 class="white-text">Phone Numbers</h4>
                 </div>
                 <?php the_field('phone_numbers') ?>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="tel:412-321-3795">(412) 321-3795</a></li>
-                    <li><a class="grey-text text-lighten-3" href="tel:412-321-3796">(412) 321-3796</a></li>
-                    <li><a class="grey-text text-lighten-3" href="tel:412-321-3830">(412) 321-3830</a></li>
-                    <li><a class="grey-text text-lighten-3" href="tel:800-872-2338">(800) 872-2338 (Toll Free)</a></li>
-                    <li><a class="grey-text text-lighten-3" href="tel:412-321-4955">(412) 321-4955 (Fax)</a></li>
-                </ul>
             </div>
 
             <div class="col l3 m4 s12 footer-section office-hours">
@@ -57,7 +50,6 @@
                     <h4 class="white-text">Office Hours</h4>
                 </div>
                 <?php the_field('office_hours') ?>
-                <p class="grey-text text-lighten-4">Monday - Friday <br /> 8:00am - 5:00pm</p>
             </div>
 
         </div>
