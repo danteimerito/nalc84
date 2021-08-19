@@ -1,6 +1,27 @@
 
 </div>
 
+
+<?php
+        $ourCurrentPage = get_query_var('paged');
+        $post_args=array(
+            'post_type'                => array('footer_content'),
+            'post_status'              => 'publish',
+            'posts_per_page'           => 1,
+            'orderby'                  => 'date',
+            'order'                    => 'DESC',
+            // 'paged'                    => $ourCurrentPage
+        );
+    
+        $post_my_query = new WP_Query($post_args);
+
+        if( $post_my_query->have_posts() ) 
+        {
+            while ($post_my_query->have_posts()) : $post_my_query->the_post(); 
+
+            ?>
+
+
 <footer class="page-footer">
     <div class="container">
         <div class="row">
@@ -11,6 +32,7 @@
                     <h4 class="white-text">Mailing Address</h4>
                 </div>
                 <p class="grey-text text-lighten-4 mailing-address">
+                <?php the_field('mailing_address') ?>
                     NALC Branch 84 <br />
                     841 California Avenue<br />
                     Pittsburgh, PA 15212<br />
@@ -59,3 +81,10 @@
         </div>
     </div>
 </footer>
+
+<?php endwhile;  ?>
+             
+             <?php
+                 }
+                 wp_reset_query($post_my_query);
+             ?>
