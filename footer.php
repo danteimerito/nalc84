@@ -33,9 +33,6 @@
                 </div>
                 <p class="grey-text text-lighten-4 mailing-address">
                     <?php the_field('mailing_address') ?>
-                    NALC Branch 84 <br />
-                    841 California Avenue<br />
-                    Pittsburgh, PA 15212<br />
                 </p>
             </div>
 
@@ -44,6 +41,7 @@
                     <img class="icon-phone" alt="phone icon" src="<?php echo get_site_url(); ?>/wp-content/themes/nalc84/assets/images/icon-phone.svg"/>
                     <h4 class="white-text">Phone Numbers</h4>
                 </div>
+                <?php the_field('phone_numbers') ?>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="tel:412-321-3795">(412) 321-3795</a></li>
                     <li><a class="grey-text text-lighten-3" href="tel:412-321-3796">(412) 321-3796</a></li>
@@ -58,6 +56,7 @@
                     <img class="icon-clock" alt="clock icon" src="<?php echo get_site_url(); ?>/wp-content/themes/nalc84/assets/images/icon-clock.svg"/>
                     <h4 class="white-text">Office Hours</h4>
                 </div>
+                <?php the_field('office_hours') ?>
                 <p class="grey-text text-lighten-4">Monday - Friday <br /> 8:00am - 5:00pm</p>
             </div>
 
