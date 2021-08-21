@@ -18,7 +18,7 @@
     
 
     <div class="row"> 
-    <hr/>
+    
         <?php 
             //  Loop of other president's reports
             get_template_part( 'template-parts/presidents-report', 'suggested');
