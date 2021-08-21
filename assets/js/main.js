@@ -87,7 +87,9 @@ var arr = ['news', 'events', 'local84', 'topics', 'reference', 'contact', 'searc
 // ------------ Use of 'includes' not supported in IE11 -------------// 
 for (var _i2 = 0, _arr = arr; _i2 < _arr.length; _i2++) {
   var x = _arr[_i2];
-  if (url.includes('nalc84/' + x) || url.includes('.com/' + x) || url.includes('.app/' + x)) {
+  // if (url.includes('nalc84/' + x) || url.includes('.com/' + x) || url.includes('.app/' + x)) {
+    if (url.includes('/' + x + '/')) {
+
     var varName = eval(x + 'Btn');
     varName.classList.add('button-active');
   }
