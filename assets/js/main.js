@@ -94,8 +94,13 @@ for (var _i2 = 0, _arr = arr; _i2 < _arr.length; _i2++) {
   
 } 
 
+// nav indicators for custom post types
+var referenceBtn = document.getElementById('trigger-1');
+var handbooksBtn = document.getElementById('handbooks-manuals');
+
 if (url.includes('handbooks_manuals')) {
-  document.body.style.display = 'none';
+  referenceBtn.classList.add('button-active');
+  handbooksBtn.classList.add('button-active');
 }
 
 // ------------ End Use of 'includes' not supported in IE11 -------------// 
