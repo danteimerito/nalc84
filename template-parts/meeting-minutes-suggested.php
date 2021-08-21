@@ -37,6 +37,7 @@
                                         <?php echo get_the_title( $post_my_query->ID );?>
                                     </a>
                                 </h3>
+                                <div class="result-type"> <?php the_field('meeting_date'); ?> </div>
                                 
                                 <p>
                                     <?php 
