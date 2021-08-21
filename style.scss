@@ -1601,12 +1601,13 @@ ul.event-listing {
   justify-content: space-between;
 }
 
-.result-type {
-  // position: absolute;
-  // top: -1.5rem;
+.result-type,
+.result-type-larger {
   text-transform: uppercase;
   color: $blue-primary-darker;
   margin-bottom: -2.2rem;
+}
+.result-type-larger {
 }
 
 .document-layout {

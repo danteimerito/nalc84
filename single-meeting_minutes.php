@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col l9">
 
-            <h3> <?php the_field('meeting_date'); ?> </h3>
+            <div class="result-type-larger"> <?php the_field('meeting_date'); ?> </div>
             
             <h1><?php the_title(); ?></h1>
             
