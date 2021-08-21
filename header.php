@@ -74,7 +74,7 @@
                                                 </li>
 
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/local84/presidents-report">President's Report</a>
+                                                    <a href="<?php echo get_site_url() ?>/local84/presidents-report" id="presidents-report">President's Report</a>
                                                 </li>
 
                                                 <li>
@@ -82,7 +82,7 @@
                                                 </li>
                                                
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/local84/meeting-minutes">Meeting Minutes</a>
+                                                    <a href="<?php echo get_site_url() ?>/local84/meeting-minutes" id="meeting-minutes">Meeting Minutes</a>
                                                 </li>
                                                 
                                             </ul>
