@@ -104,6 +104,9 @@ var presidentsBtn = document.getElementById('presidents-report');
 
 var handbooksBtnMobile = document.getElementById('handbooks-manuals-mobile');
 var documentsBtnMobile = document.getElementById('documents-mobile');
+var minutesBtnMobile = document.getElementById('minutes-mobile');
+var presidentsBtnMobile = document.getElementById('presidents-mobile');
+
 //handbooks&manuals
 if (url.includes('/handbooks_manuals/')) {
   referenceBtn.classList.add('button-active');
@@ -120,11 +123,13 @@ if (url.includes('/documents/')) {
 if (url.includes('/meeting_minutes/')) {
   local84Btn.classList.add('button-active');
   minutesBtn.classList.add('button-active');
+  minutesBtnMobile.classList.add('current');
 }
 //presidents-report
 if (url.includes('/presidents-report/')) {
   local84Btn.classList.add('button-active');
   presidentsBtn.classList.add('button-active');
+  presidentsBtnMobile.classList.add('current');
 }
 
 

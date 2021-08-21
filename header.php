@@ -182,9 +182,9 @@
                                                     <div class="">
                                                         <span class="multi">Local 84</span>
                                                         <a href="<?php echo get_site_url() ?>/local84/about/">About Branch 84</a>
-                                                        <a href="<?php echo get_site_url() ?>/local84/presidents-report/">President's Report</a>
+                                                        <a href="<?php echo get_site_url() ?>/local84/presidents-report/" id="presidents-mobile">President's Report</a>
                                                         <a href="<?php echo get_site_url() ?>/local84/local-agreements/">Local Agreements</a>
-                                                        <a href="<?php echo get_site_url() ?>/local84/meeting-minutes/">Meeting Minutes</a>
+                                                        <a href="<?php echo get_site_url() ?>/local84/meeting-minutes/" id="minutes-mobile">Meeting Minutes</a>
                                                     </div>
 
                                                     <div class="collapsed">
