@@ -6,9 +6,9 @@
         <div class="col l9">
 
             
-            
-            <h1><?php the_title(); ?></h1>
             <div class="result-type-larger"> <?php the_field('meeting_date'); ?> </div>
+            <h1><?php the_title(); ?></h1>
+            
             
             <?php the_content(); ?> 
 

@@ -1797,6 +1797,7 @@ ul.event-listing h6 {
 
 .suggestion-detail {
   margin-top: 2rem;
+  margin-bottom: -1rem;
 }
 
 .document-layout {
@@ -1844,6 +1845,7 @@ ul.event-listing h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 5rem;
 }
 
 @media only screen and (max-width: 940px) {
