@@ -29,7 +29,7 @@
             ?>
             
             
-            <div class="suggested-item">
+            <div class="suggested-item item">
                
                     
                             
@@ -39,16 +39,12 @@
                                     </a>
                                 </h3>
                                 
-                                <p>
-                                    <?php 
-                                        echo get_the_excerpt( $post_my_query->ID ); ?>
-                                </p>
                                 
-                            
+                                
                             <div class="col l12 m12 s12">
                                 <div class="details-btn">
                                     <a href="<?php the_permalink(); ?>">
-                                        <div class="waves-effect waves-light btn">Read More</div>
+                                        <div class="waves-effect waves-light btn">View Report</div>
                                     </a>
                                 </div>
                             </div>

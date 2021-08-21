@@ -26,7 +26,7 @@
     </div>
 
 
-    <hr/>
+    <!-- horizontal rule -->
 
 
 
@@ -64,7 +64,7 @@
             ?>
             
             
-            <div class="suggested-item">
+            <div class="suggested-item item">
                
                     
                                 <div class="suggestion-detail"> <?php the_field('meeting_date'); ?> </div>
