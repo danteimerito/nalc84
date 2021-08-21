@@ -1784,6 +1784,16 @@ ul.event-listing h6 {
   margin-bottom: -2.2rem;
 }
 
+.result-type-larger {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 50rem) {
+  .result-type-larger {
+    font-size: 1.2rem;
+  }
+}
+
 .document-layout {
   display: -webkit-box;
   display: -ms-flexbox;

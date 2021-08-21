@@ -1608,6 +1608,10 @@ ul.event-listing {
   margin-bottom: -2.2rem;
 }
 .result-type-larger {
+  font-size: 1.5rem;
+  @media only screen and (max-width: 50rem) {
+    font-size: 1.2rem;
+  }
 }
 
 .document-layout {
