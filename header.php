@@ -118,7 +118,7 @@
                                                     <a href="<?php echo get_site_url() ?>/reference/handbooksandmanuals" id="handbooks-manuals">Handbooks & Manuals</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/reference/documents">Documents</a>
+                                                    <a href="<?php echo get_site_url() ?>/reference/documents" id="documents">Documents</a>
                                                 </li>
                                             </ul>
                                         </li>

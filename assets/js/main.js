@@ -91,16 +91,22 @@ for (var _i2 = 0, _arr = arr; _i2 < _arr.length; _i2++) {
     var varName = eval(x + 'Btn');
     varName.classList.add('button-active');
   }
+
   
 } 
 
 // nav indicators for custom post types
 var referenceBtn = document.getElementById('trigger-1');
 var handbooksBtn = document.getElementById('handbooks-manuals');
+var documentsBtn = document.getElementById('documents');
 
-if (url.includes('handbooks_manuals')) {
+if (url.includes('/handbooks_manuals/')) {
   referenceBtn.classList.add('button-active');
   handbooksBtn.classList.add('button-active');
+}
+if (url.includes('/documents/')) {
+  referenceBtn.classList.add('button-active');
+  documentsBtn.classList.add('button-active');
 }
 
 // ------------ End Use of 'includes' not supported in IE11 -------------// 
