@@ -1042,6 +1042,13 @@ ul.event-listing {
   padding-top: 1.1rem;
 }
 
+.byline-below-content {
+  font-family: "EB Garamond";
+  margin-bottom: -1.1rem;
+  //new
+  padding-top: 1.1rem;
+}
+
 .item,
 .event-item {
   position: relative;
@@ -1675,6 +1682,9 @@ blockquote {
 }
 .mailing-address {
   margin-left: 51px;
+  p {
+    margin-left: 3.25rem;
+  }
 }
 .office-hours p {
   margin-left: 51px;

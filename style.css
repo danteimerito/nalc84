@@ -1126,6 +1126,12 @@ ul.event-listing h6 {
   padding-top: 1.1rem;
 }
 
+.byline-below-content {
+  font-family: "EB Garamond";
+  margin-bottom: -1.1rem;
+  padding-top: 1.1rem;
+}
+
 .item,
 .event-item {
   position: relative;
@@ -1889,6 +1895,10 @@ blockquote {
 
 .mailing-address {
   margin-left: 51px;
+}
+
+.mailing-address p {
+  margin-left: 3.25rem;
 }
 
 .office-hours p {

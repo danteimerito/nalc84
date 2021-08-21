@@ -13,6 +13,12 @@
             </h5>
             <h1><?php the_title(); ?></h1>
             <?php the_content(); ?> 
+            <h5 class="byline-below-content">Published <?php the_time("F jS, Y"); ?> by 
+                <?php 
+                    $display_name = get_the_author_meta( 'display_name', $post->post_author );
+                    echo $display_name;
+                ?>
+            </h5>
             
         </div>
 

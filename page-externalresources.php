@@ -15,7 +15,7 @@
             // 'post_type'                => 'any',
             'post_type'                => array('externalresource'),
             'post_status'              => 'publish',
-            'posts_per_page'           => 8,
+            'posts_per_page'           => 10,
             'orderby'                  => 'date',
             'order'                    => 'DESC',
             'paged' => $ourCurrentPage
