@@ -91,11 +91,13 @@ for (var _i2 = 0, _arr = arr; _i2 < _arr.length; _i2++) {
     var varName = eval(x + 'Btn');
     varName.classList.add('button-active');
   }
-  if (url.includes('handbooks_manuals')) {
-    document.body.style.display = 'none';
-
-  }
+  
 } 
+
+if (url.includes('handbooks_manuals')) {
+  document.body.style.display = 'none';
+}
+
 // ------------ End Use of 'includes' not supported in IE11 -------------// 
 
 // Navigation - style mobile slide-out active menu links
