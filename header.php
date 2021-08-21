@@ -198,8 +198,8 @@
                                                     <div class="collapsed">
                                                         <span class="multi">Reference</span>
                                                         <a href="<?php echo get_site_url() ?>/reference/externalresources/">External Resources</a>
-                                                        <a href="<?php echo get_site_url() ?>/reference/handbooksandmanuals/">Handbooks & Manuals</a>
-                                                        <a href="<?php echo get_site_url() ?>/reference/documents/">Documents</a>
+                                                        <a href="<?php echo get_site_url() ?>/reference/handbooksandmanuals/" id="handbooks-manuals-mobile">Handbooks & Manuals</a>
+                                                        <a href="<?php echo get_site_url() ?>/reference/documents/" id="documents-mobile">Documents</a>
                                                     </div>
 
 

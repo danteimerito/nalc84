@@ -101,15 +101,20 @@ var handbooksBtn = document.getElementById('handbooks-manuals');
 var documentsBtn = document.getElementById('documents');
 var minutesBtn = document.getElementById('meeting-minutes');
 var presidentsBtn = document.getElementById('presidents-report');
+
+var handbooksBtnMobile = document.getElementById('handbooks-manuals-mobile');
+var documentsBtnMobile = document.getElementById('documents-mobile');
 //handbooks&manuals
 if (url.includes('/handbooks_manuals/')) {
   referenceBtn.classList.add('button-active');
   handbooksBtn.classList.add('button-active');
+  handbooksBtnMobile.classList.add('button-active');
 }
 //documents
 if (url.includes('/documents/')) {
   referenceBtn.classList.add('button-active');
   documentsBtn.classList.add('button-active');
+  documentsBtnMobile.classList.add('button-active');
 }
 //meeting-minutes
 if (url.includes('/meeting_minutes/')) {
@@ -121,6 +126,8 @@ if (url.includes('/presidents-report/')) {
   local84Btn.classList.add('button-active');
   presidentsBtn.classList.add('button-active');
 }
+
+
 
 // ------------ End Use of 'includes' not supported in IE11 -------------// 
 
