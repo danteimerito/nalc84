@@ -108,13 +108,13 @@ var documentsBtnMobile = document.getElementById('documents-mobile');
 if (url.includes('/handbooks_manuals/')) {
   referenceBtn.classList.add('button-active');
   handbooksBtn.classList.add('button-active');
-  handbooksBtnMobile.classList.add('button-active');
+  handbooksBtnMobile.classList.add('current');
 }
 //documents
 if (url.includes('/documents/')) {
   referenceBtn.classList.add('button-active');
   documentsBtn.classList.add('button-active');
-  documentsBtnMobile.classList.add('button-active');
+  documentsBtnMobile.classList.add('current');
 }
 //meeting-minutes
 if (url.includes('/meeting_minutes/')) {
