@@ -5,9 +5,10 @@
     <div class="row">
         <div class="col l9">
 
-            <div class="result-type-larger"> <?php the_field('meeting_date'); ?> </div>
+            
             
             <h1><?php the_title(); ?></h1>
+            <div class="result-type-larger"> <?php the_field('meeting_date'); ?> </div>
             
             <?php the_content(); ?> 
 
@@ -66,7 +67,7 @@
             <div class="suggested-item">
                
                     
-                                <div class="result-type"> <?php the_field('meeting_date'); ?> </div>
+                                <div class="suggestion-detail"> <?php the_field('meeting_date'); ?> </div>
                                 <h3>
                                     <a href="<?php the_permalink();?>">
                                         <?php echo get_the_title( $post_my_query->ID );?>

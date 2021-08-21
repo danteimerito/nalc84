@@ -7,9 +7,9 @@ Author URI: https://nalc84.org
 Copyright: NALC Branch 84 all rights reserved
 */
 
-$blue-primary: #07fc07;
-$blue-primary-darker: #509d24;
-$blue-primary-even-darker: #2d8318;
+$blue-primary: #2850af;
+$blue-primary-darker: #24489d;
+$blue-primary-even-darker: #183883;
 $blue-primary-even-darker-darker: #15306e;
 $hover: rgba(0, 0, 0, 0.1);
 $blue-lite-1: rgba(170, 183, 215, 0.68);
@@ -1602,7 +1602,8 @@ ul.event-listing {
 }
 
 .result-type,
-.result-type-larger {
+.result-type-larger,
+.suggestion-detail {
   text-transform: uppercase;
   color: $blue-primary-darker;
   margin-bottom: -2.2rem;
@@ -1612,6 +1613,9 @@ ul.event-listing {
   @media only screen and (max-width: 50rem) {
     font-size: 1.15rem;
   }
+}
+.suggestion-detail {
+  margin-top: 2rem;
 }
 
 .document-layout {
