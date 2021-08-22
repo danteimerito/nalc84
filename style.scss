@@ -1644,7 +1644,6 @@ ul.event-listing {
 .other-posts-contain {
   display: flex;
   justify-content: space-between;
-  margin-top: 5rem;
   @media only screen and (max-width: 940px) {
     flex-direction: column;
   }
@@ -1658,6 +1657,10 @@ ul.event-listing {
   .details-btn {
     position: static;
   }
+}
+
+.further-reading {
+  margin-top: 5rem;
 }
 
 blockquote {

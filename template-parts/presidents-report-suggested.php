@@ -15,41 +15,44 @@
         $post_my_query = new WP_Query($post_args);
         ?>
 
+        <div class="row further-reading">
 
-        <!-- <h2>Further Reading </h2> -->
-        <div class="other-posts-contain"> 
-            
+            <h2>Further Reading </h2>
 
-        <?php
+            <div class="other-posts-contain"> 
+                
 
-        if( $post_my_query->have_posts() ) 
-        {
-            while ($post_my_query->have_posts()) : $post_my_query->the_post(); 
+            <?php
 
-            ?>
-            
-            
-            <div class="suggested-item item">
-               
-                    
-                            
-                                <h3>
-                                    <a href="<?php the_permalink();?>">
-                                        <?php echo get_the_title( $post_my_query->ID );?>
-                                    </a>
-                                </h3>
+            if( $post_my_query->have_posts() ) 
+            {
+                while ($post_my_query->have_posts()) : $post_my_query->the_post(); 
+
+                ?>
+                
+                
+                <div class="suggested-item item">
+                
+                        
                                 
-                                
-                                
-                            <div class="col l12 m12 s12">
-                                <div class="details-btn">
-                                    <a href="<?php the_permalink(); ?>">
-                                        <div class="waves-effect waves-light btn">View Report</div>
-                                    </a>
+                                    <h3>
+                                        <a href="<?php the_permalink();?>">
+                                            <?php echo get_the_title( $post_my_query->ID );?>
+                                        </a>
+                                    </h3>
+                                    
+                                    
+                                    
+                                <div class="col l12 m12 s12">
+                                    <div class="details-btn">
+                                        <a href="<?php the_permalink(); ?>">
+                                            <div class="waves-effect waves-light btn">View Report</div>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                       
-                            </div>
+                        
+                                </div>
+            </div>
               
           
 
