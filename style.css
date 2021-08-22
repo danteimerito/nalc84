@@ -1385,6 +1385,10 @@ ul.event-listing h6 {
   margin-top: 2.5rem;
 }
 
+.all-events-button a {
+  margin-right: 1rem;
+}
+
 .details {
   display: -webkit-box;
   display: -ms-flexbox;
