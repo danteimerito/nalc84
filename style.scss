@@ -1601,20 +1601,22 @@ ul.event-listing {
   justify-content: space-between;
 }
 
-.result-type,
-.result-type-larger,
-.suggestion-detail {
+.result-type {
   text-transform: uppercase;
   color: $blue-primary-darker;
   margin-bottom: -2.2rem;
 }
 .result-type-larger {
+  color: $blue-primary-darker;
+  margin-bottom: -1rem;
   font-size: 1.35rem;
   @media only screen and (max-width: 50rem) {
     font-size: 1.15rem;
   }
 }
 .suggestion-detail {
+  text-transform: uppercase;
+  color: $blue-primary-darker;
   margin-top: 2rem;
   margin-bottom: -1rem;
 }
