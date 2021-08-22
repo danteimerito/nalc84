@@ -1609,9 +1609,9 @@ ul.event-listing {
 .result-type-larger {
   color: $blue-primary-darker;
   margin-bottom: -1rem;
-  font-size: 1.35rem;
+  // font-size: 1.35rem;
   @media only screen and (max-width: 50rem) {
-    font-size: 1.15rem;
+    // font-size: 1.15rem;
   }
 }
 .suggestion-detail {

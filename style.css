@@ -1787,13 +1787,6 @@ ul.event-listing h6 {
 .result-type-larger {
   color: #24489d;
   margin-bottom: -1rem;
-  font-size: 1.35rem;
-}
-
-@media only screen and (max-width: 50rem) {
-  .result-type-larger {
-    font-size: 1.15rem;
-  }
 }
 
 .suggestion-detail {
