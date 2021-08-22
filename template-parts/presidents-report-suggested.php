@@ -16,49 +16,29 @@
         ?>
 
         <div class="row further-reading">
-
             <h2>Further Reading </h2>
-
             <div class="other-posts-contain"> 
-                
-
-            <?php
-
-            if( $post_my_query->have_posts() ) 
-            {
-                while ($post_my_query->have_posts()) : $post_my_query->the_post(); 
-
+                <?php 
+                    if( $post_my_query->have_posts() ) 
+                    {
+                        while ($post_my_query->have_posts()) : $post_my_query->the_post(); 
                 ?>
-                
-                
                 <div class="suggested-item item">
-                
-                        
-                                
-                                    <h3>
-                                        <a href="<?php the_permalink();?>">
-                                            <?php echo get_the_title( $post_my_query->ID );?>
-                                        </a>
-                                    </h3>
-                                    
-                                    
-                                    
-                                <div class="col l12 m12 s12">
-                                    <div class="details-btn">
-                                        <a href="<?php the_permalink(); ?>">
-                                            <div class="waves-effect waves-light btn">View Report</div>
-                                        </a>
-                                    </div>
-                                </div>
-                        
-                                </div>
+                    <h3>
+                        <a href="<?php the_permalink();?>">
+                            <?php echo get_the_title( $post_my_query->ID );?>
+                        </a>
+                    </h3>    
+                    <div class="col l12 m12 s12">
+                        <div class="details-btn">
+                            <a href="<?php the_permalink(); ?>">
+                                <div class="waves-effect waves-light btn">View Report</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <?php endwhile; } ?>
             </div>
-              
-          
-
-
-            <?php endwhile; } ?>
-
             </div>
 
             
