@@ -24,7 +24,7 @@
 
             <?php the_content(); ?> 
             
-            <h5 class="byline">Published <?php the_time("F jS, Y"); ?> by 
+            <h5 class="byline">— Published <?php the_time("F jS, Y"); ?> by 
                 <?php 
                     $display_name = get_the_author_meta( 'display_name', $post->post_author );
                     echo $display_name;
