@@ -42,8 +42,9 @@
         ?>
 
 
-        <!-- <h2>Further Reading </h2> -->
-        <div class="other-posts-contain"> 
+        <div class="row further-reading">
+            <h2>Further Reading </h2>
+            <div class="other-posts-contain"> 
             
 
         <?php
