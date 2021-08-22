@@ -6,7 +6,7 @@
         <div class="col l9">
             <h1><?php the_title(); ?></h1>
             <?php the_content(); ?> 
-            <h5 class="byline-below-content">Published <?php the_time("F jS, Y"); ?> by 
+            <h5 class="byline-below-content">— Published <?php the_time("F jS, Y"); ?> by 
                 <?php 
                     $display_name = get_the_author_meta( 'display_name', $post->post_author );
                     echo $display_name;
@@ -48,26 +48,20 @@
             
 
         <?php
-
         if( $post_my_query->have_posts() ) 
         {
             while ($post_my_query->have_posts()) : $post_my_query->the_post(); 
 
-            ?>
-            
+        ?>
             
             <div class="suggested-item item">
-               
-                    
-                            
+                      
                                 <h3>
                                     <a href="<?php the_permalink();?>">
                                         <?php echo get_the_title( $post_my_query->ID );?>
                                     </a>
                                 </h3>
-
-                                
-                            
+       
                             <div class="col l12 m12 s12">
                                 <div class="details-btn">
                                     <a href="<?php the_permalink(); ?>">

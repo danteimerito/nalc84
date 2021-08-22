@@ -12,7 +12,7 @@
             
             <?php the_content(); ?> 
 
-            <h5 class="byline-below-content">Published <?php the_time("F jS, Y"); ?> by 
+            <h5 class="byline-below-content">— Published <?php the_time("F jS, Y"); ?> by 
                 <?php 
                     $display_name = get_the_author_meta( 'display_name', $post->post_author );
                     echo $display_name;
@@ -26,11 +26,10 @@
     </div>
 
 
-    <!-- horizontal rule -->
 
-
-
-    <div class="row"> 
+    <div class="row further-reading">
+            <h2>Further Reading </h2>
+         
     
 
     <?php
@@ -53,8 +52,8 @@
 
         <!-- <h2>Further Reading </h2> -->
         <div class="other-posts-contain"> 
-            
 
+        
         <?php
 
         if( $post_my_query->have_posts() ) 
