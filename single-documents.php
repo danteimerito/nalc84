@@ -28,7 +28,7 @@
                         </a>
 
                         <a href="<?php echo get_site_url() ?>/documents/">
-                            <button class="waves-effect waves-light btn">All Documents</button>
+                            <button class="btn document-button">All Documents</button>
                         </a>
                     </div>
                     
