@@ -46,11 +46,11 @@
                                 </a>
                             </div>
                             <div class="results-text-col">
-                                <h3>
+                                <h2>
                                     <a href="<?php the_permalink();?>">
                                         <?php echo get_the_title( $post_my_query->ID );?>
                                     </a>
-                                </h3>
+                                </h2>
                                 <p> 
                                     <?php echo get_the_excerpt( $post_my_query->ID );?> 
                                 </p>
@@ -70,11 +70,6 @@
                             
                     </div>
                 </div>
-
-
-
-
-            
               
             </div>
 
