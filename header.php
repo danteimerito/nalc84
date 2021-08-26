@@ -20,9 +20,9 @@
     <div class="search-bar" id="search-bar">
         <div class="container search-layout" id="searchform">
             <?php get_search_form(); ?>
-            <div class="searchform-close1"> 
+            <!-- <div class="searchform-close1"> 
                 <div class="search-close" id="search-close"> <span>X</span> </div>
-            </div>    
+            </div>     -->
         </div>
     </div>
     

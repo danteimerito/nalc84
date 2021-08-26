@@ -1577,7 +1577,6 @@ ul.event-listing h6 {
   display: -ms-flexbox;
   display: flex;
   padding-top: 0.295rem;
-  padding-right: 5rem;
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
   -webkit-box-pack: end;
