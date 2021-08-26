@@ -25,7 +25,7 @@
                         </a>
 
                         <a href="<?php echo get_site_url() ?>/handbooksandmanuals/">
-                            <button class="waves-effect waves-light btn">All Handbooks</button>
+                            <button class="btn document-button">All Handbooks</button>
                         </a>
                     </div>
                 </div>

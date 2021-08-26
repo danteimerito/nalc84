@@ -1624,7 +1624,7 @@ ul.event-listing h6 {
       flex-basis: 50%;
   min-width: 1px;
   max-width: 250px;
-  background-color: chartreuse;
+  background-color: white;
   color: #24489d;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1652,8 +1652,8 @@ ul.event-listing h6 {
   color: #24489d;
   background-color: #fff;
   border: none;
-  -webkit-box-shadow: -5px 2px 5px #011061;
-          box-shadow: -5px 2px 5px #011061;
+  -webkit-box-shadow: -2px 2px 5px #011061;
+          box-shadow: -2px 2px 5px #011061;
 }
 
 @media only screen and (max-width: 650px) {
