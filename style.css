@@ -1652,8 +1652,8 @@ ul.event-listing h6 {
   color: #24489d;
   background-color: #fff;
   border: none;
-  -webkit-box-shadow: -2px 2px 5px #011061;
-          box-shadow: -2px 2px 5px #011061;
+  -webkit-box-shadow: 0px 0px 5px #011061;
+          box-shadow: 0px 0px 5px #011061;
 }
 
 @media only screen and (max-width: 650px) {
@@ -1707,7 +1707,7 @@ ul.event-listing h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #183883;
+  background-color: #e63030;
   color: white;
   height: 3rem;
   width: 10%;
