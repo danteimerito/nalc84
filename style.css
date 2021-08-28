@@ -89,6 +89,10 @@ button:active,
   background-color: #24489d !important;
 }
 
+.document-button {
+  margin-bottom: 1rem;
+}
+
 select {
   display: block !important;
 }
