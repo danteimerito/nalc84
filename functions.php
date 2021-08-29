@@ -46,8 +46,8 @@ function my_login_logo() { ?>
             background-position: center;
             margin-bottom: 0;
         }
-        #login h1, .login h1 {
-            background-color:red;
+        .login form {
+            margin-top: 0;
         }
     </style>
 <?php }
