@@ -57,7 +57,7 @@
         <div class="row">
             <a href="<?php echo get_site_url() ?>/privacy-policy">Privacy Policy</a>
         </div>
-        <?php echo get_stylesheet_directory_uri(); ?>
+      
     </div>
     
     <div class="footer-copyright">
