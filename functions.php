@@ -46,7 +46,7 @@ function my_login_logo() { ?>
             background-position: center;
             margin-bottom: 0;
         }
-        .login form {
+        #login form, .login form {
             margin-top: 0;
         }
     </style>
