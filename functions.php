@@ -35,12 +35,19 @@
 function my_login_logo() { ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/nalc-logo-badge-type-2.svg);
-		height:65px;
-		width:320px;
-		background-size: 320px 65px;
-		background-repeat: no-repeat;
-        	padding-bottom: 30px;
+            background-image: url(https://digital-hideaway.com/wp-content/themes/nalc84/assets/images/nalc-logo-badge-type-2.svg);
+            height: 65px;
+            width: 320px;
+            background-size: 320px 65px;
+            background-repeat: no-repeat;
+            padding-bottom: 30px;
+            background-color: #2850af;
+            padding-top: 30px;
+            background-position: center;
+            margin-bottom: 0;
+        }
+        #login h1, .login h1 {
+            background-color:red;
         }
     </style>
 <?php }
