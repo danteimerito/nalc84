@@ -1753,10 +1753,7 @@ blockquote {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 2.25rem 0rem 1rem 0;
-  @media only screen and (max-width: 50rem) {
-    padding-top: 3rem;
-  }
+  padding: 3rem 0rem 1rem 0;
   img {
     max-width: 120px;
     max-height: 150px;
