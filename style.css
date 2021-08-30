@@ -1984,6 +1984,12 @@ blockquote {
   padding: 2.25rem 0rem 1rem 0;
 }
 
+@media only screen and (max-width: 50rem) {
+  .document-graphic-small {
+    padding-top: 3rem;
+  }
+}
+
 .document-graphic-small img {
   max-width: 120px;
   max-height: 150px;
@@ -2016,8 +2022,4 @@ blockquote {
   .results-text-col p {
     display: none;
   }
-}
-
-.login h1 a {
-  background-image: url("./assets/images/nalc-logo-badge-type-2.svg") !important;
 }
