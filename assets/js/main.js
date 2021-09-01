@@ -84,7 +84,7 @@ var searchBtn = document.getElementById('search');
 var arr = ['news', 'events', 'local84', 'topics', 'reference', 'contact', 'search'];
 
 
-// ------------ Use of 'includes' not supported in IE11 -------------// 
+// ------------ Use of 'includes' method not supported in IE11 -------------// 
 for (var _i2 = 0, _arr = arr; _i2 < _arr.length; _i2++) {
   var x = _arr[_i2];
   if (url.includes('nalc84/' + x) || url.includes('.com/' + x) || url.includes('.app/' + x)) {
@@ -101,13 +101,13 @@ var handbooksBtn = document.getElementById('handbooks-manuals');
 var documentsBtn = document.getElementById('documents');
 var minutesBtn = document.getElementById('meeting-minutes');
 var presidentsBtn = document.getElementById('presidents-report');
-var covid19Btn = document.getElementById('covid19');
+// var covid19Btn = document.getElementById('covid19');
 
 var handbooksBtnMobile = document.getElementById('handbooks-manuals-mobile');
 var documentsBtnMobile = document.getElementById('documents-mobile');
 var minutesBtnMobile = document.getElementById('minutes-mobile');
 var presidentsBtnMobile = document.getElementById('presidents-mobile');
-var covid19BtnMobile = document.getElementById('covid19-mobile');
+// var covid19BtnMobile = document.getElementById('covid19-mobile');
 
 //handbooks&manuals
 if (
@@ -137,15 +137,13 @@ if (url.includes('/presidents-report/')) {
   presidentsBtnMobile.classList.add('current');
 }
 //covid19
-if (url.includes('/covid19/')) {
-  topicsBtn.classList.add('button-active');
-  covid19Btn.classList.add('button-active');
-  covid19BtnMobile.classList.add('current');
-}
+// if (url.includes('/covid19/')) {
+//   topicsBtn.classList.add('button-active');
+//   covid19Btn.classList.add('button-active');
+//   covid19BtnMobile.classList.add('current');
+// }
 
 
-
-// ------------ End Use of 'includes' method not supported in IE11 -------------// 
 
 // Navigation - style mobile slide-out active menu links
 var sideNavLink = document.querySelectorAll('.sdmenu a');
