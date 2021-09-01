@@ -137,15 +137,15 @@ if (url.includes('/presidents-report/')) {
   presidentsBtnMobile.classList.add('current');
 }
 //covid19
-// if (url.includes('/covid19/')) {
-//   topicsBtn.classList.add('button-active');
-//   covid19Btn.classList.add('button-active');
-//   covid19BtnMobile.classList.add('current');
-// }
+if (url.includes('/covid19/')) {
+  topicsBtn.classList.add('button-active');
+  covid19Btn.classList.add('button-active');
+  covid19BtnMobile.classList.add('current');
+}
 
 
 
-// ------------ End Use of 'includes' not supported in IE11 -------------// 
+// ------------ End Use of 'includes' method not supported in IE11 -------------// 
 
 // Navigation - style mobile slide-out active menu links
 var sideNavLink = document.querySelectorAll('.sdmenu a');
