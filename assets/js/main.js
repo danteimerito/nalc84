@@ -110,7 +110,10 @@ var presidentsBtnMobile = document.getElementById('presidents-mobile');
 // var covid19BtnMobile = document.getElementById('covid19-mobile');
 
 //handbooks&manuals
-if (url.includes('/handbooks_manuals/')) {
+if (
+  url.includes('/handbooks_manuals/') ||
+  url.includes('/handbooksandmanuals/')
+  ) {
   referenceBtn.classList.add('button-active');
   handbooksBtn.classList.add('button-active');
   handbooksBtnMobile.classList.add('current');
