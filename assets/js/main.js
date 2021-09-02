@@ -346,8 +346,8 @@ const searchImage = document.getElementById('search-icon');
 searchToggle.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");
   searchToggle.classList.toggle("nav-active");
-  /wp-content/themes/nalc84/assets/images/icon-search.svg
-  searchImage.src = window.location.href + 'wp-content/themes/nalc84//assets/images/icon-search-close.svg';
+  // /wp-content/themes/nalc84/assets/images/icon-search.svg
+  searchImage.src = window.location.href + 'wp-content/themes/nalc84/assets/images/icon-search-close.svg';
 });
 searchMobile.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");
