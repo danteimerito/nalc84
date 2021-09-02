@@ -98,13 +98,13 @@ for (var _i2 = 0, _arr = arr; _i2 < _arr.length; _i2++) {
 // nav indicators for subsections and/or pages with pagination. 
 var referenceBtn = document.getElementById('trigger-1');
 var handbooksBtn = document.getElementById('handbooks-manuals');
-var documentsBtn = document.getElementById('documents');
+// var documentsBtn = document.getElementById('documents');
 var minutesBtn = document.getElementById('meeting-minutes');
 var presidentsBtn = document.getElementById('presidents-report');
 // var covid19Btn = document.getElementById('covid19');
 
 var handbooksBtnMobile = document.getElementById('handbooks-manuals-mobile');
-var documentsBtnMobile = document.getElementById('documents-mobile');
+// var documentsBtnMobile = document.getElementById('documents-mobile');
 var minutesBtnMobile = document.getElementById('minutes-mobile');
 var presidentsBtnMobile = document.getElementById('presidents-mobile');
 // var covid19BtnMobile = document.getElementById('covid19-mobile');
@@ -119,11 +119,11 @@ if (
   handbooksBtnMobile.classList.add('current');
 }
 //documents
-if (url.includes('/documents/')) {
-  referenceBtn.classList.add('button-active');
-  documentsBtn.classList.add('button-active');
-  documentsBtnMobile.classList.add('current');
-}
+// if (url.includes('/documents/')) {
+//   referenceBtn.classList.add('button-active');
+//   documentsBtn.classList.add('button-active');
+//   documentsBtnMobile.classList.add('current');
+// }
 //meeting-minutes
 if (url.includes('/meeting_minutes/')) {
   local84Btn.classList.add('button-active');

@@ -117,9 +117,6 @@
                                                 <li>
                                                     <a href="<?php echo get_site_url() ?>/reference/handbooksandmanuals" id="handbooks-manuals">Handbooks & Manuals</a>
                                                 </li>
-                                                <li>
-                                                    <a href="<?php echo get_site_url() ?>/reference/documents" id="documents">Documents</a>
-                                                </li>
                                             </ul>
                                         </li>
 
@@ -199,7 +196,6 @@
                                                         <span class="multi">Reference</span>
                                                         <a href="<?php echo get_site_url() ?>/reference/externalresources/">External Resources</a>
                                                         <a href="<?php echo get_site_url() ?>/reference/handbooksandmanuals/" id="handbooks-manuals-mobile">Handbooks & Manuals</a>
-                                                        <a href="<?php echo get_site_url() ?>/reference/documents/" id="documents-mobile">Documents</a>
                                                     </div>
 
 
