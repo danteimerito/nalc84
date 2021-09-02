@@ -214,7 +214,6 @@ strong {
 
 .contain-full-width-graphic {
   display: flex;
-
   margin: 0;
   padding: 0;
   width: 100%;
@@ -1310,6 +1309,7 @@ ul.event-listing {
   padding-bottom: 1.5rem;
   margin-right: -0.5rem;
   @media only screen and (max-width: 50rem) {
+    display: none;
     position: static;
   }
 }

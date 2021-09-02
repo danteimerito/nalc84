@@ -1443,6 +1443,7 @@ ul.event-listing h6 {
 
 @media only screen and (max-width: 50rem) {
   .details-btn {
+    display: none;
     position: static;
   }
 }
