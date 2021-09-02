@@ -339,7 +339,7 @@ myMenu.init(); // };
 // Toggle Search Bar
 const searchBar = document.getElementById('search-bar');
 const searchToggle = document.getElementById('search');
-const searchClose = document.getElementById('search-close');
+// const searchClose = document.getElementById('search-close');
 const searchMobile = document.getElementById('search-mobile');
 
 searchToggle.addEventListener('click', function () {
@@ -349,10 +349,12 @@ searchToggle.addEventListener('click', function () {
 searchMobile.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");
 });
-searchClose.addEventListener('click', function () {
-  searchBar.classList.remove("search-visible");
-  searchToggle.classList.remove("nav-active");
-});
+
+// searchClose.addEventListener('click', function () {
+//   searchBar.classList.remove("search-visible");
+//   searchToggle.classList.remove("nav-active");
+// });
+
 // searchMobile.addEventListener('click', function () {
 //   sideNav.style.transform = 'translateX(-100%)';
 //   sideNavOverlay.style.opacity = 0;
