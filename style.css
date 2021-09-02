@@ -46,13 +46,13 @@ header {
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 50rem) {
   .item {
     background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(5, 5, 160, 0.25)), color-stop(rgba(83, 252, 32, 0)), to(rgba(236, 4, 186, 0)));
     background-image: linear-gradient(to bottom left, rgba(5, 5, 160, 0.25), rgba(83, 252, 32, 0), rgba(236, 4, 186, 0));
     border-radius: 200px;
     padding: 0rem 2rem 0rem 0rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -1871,6 +1871,12 @@ ul.event-listing h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media only screen and (max-width: 50rem) {
+  .suggested-item {
+    padding-bottom: 1rem;
+  }
 }
 
 .suggested-item .details-btn {
