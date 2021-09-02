@@ -16,7 +16,6 @@
         ?>
 
         <div class="row further-reading">
-            <h2>Further Reading </h2>
             <div class="other-posts-contain"> 
                 <?php 
                     if( $post_my_query->have_posts() ) 
@@ -29,13 +28,7 @@
                             <?php echo get_the_title( $post_my_query->ID );?>
                         </a>
                     </h3>    
-                    <div class="col l12 m12 s12">
-                        <div class="details-btn">
-                            <a href="<?php the_permalink(); ?>">
-                                <div class="waves-effect waves-light btn">View Report</div>
-                            </a>
-                        </div>
-                    </div>
+      
                 </div>
                 <?php endwhile; } ?>
             </div>
