@@ -74,7 +74,7 @@
             </div>
             <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/when-an-active-letter-carrier-dies.pdf" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
             <div class="pub-description">
-              When an Active Letter Dies...<br /> Step-by-step Instructions for Survivors to Ensure the Payment of Benefits
+              When an Active Letter Carrier Dies...<br /> Step-by-step Instructions for Survivors to Ensure the Payment of Benefits
               </div>
 
           </li>
