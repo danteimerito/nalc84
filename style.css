@@ -1792,7 +1792,8 @@ ul.event-listing h6 {
 
 .sans-above-header-large {
   color: #24489d;
-  margin-bottom: -1rem;
+  margin-bottom: -2rem;
+  font-size: 1.3rem;
 }
 
 .suggestion-detail {
