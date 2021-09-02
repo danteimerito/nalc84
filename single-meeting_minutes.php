@@ -28,9 +28,6 @@
 
 
     <div class="row further-reading">
-            <h2>Further Reading </h2>
-         
-    
 
     <?php
         $ourCurrentPage = get_query_var('paged');
@@ -49,8 +46,6 @@
         $post_my_query = new WP_Query($post_args);
         ?>
 
-
-        <!-- <h2>Further Reading </h2> -->
         <div class="other-posts-contain"> 
 
         
@@ -77,13 +72,7 @@
                             
                                 
                             
-                            <div class="col l12 m12 s12">
-                                <div class="details-btn">
-                                    <a href="<?php the_permalink(); ?>">
-                                        <div class="waves-effect waves-light btn">View Minutes</div>
-                                    </a>
-                                </div>
-                            </div>
+                            
                        
                             </div>
               

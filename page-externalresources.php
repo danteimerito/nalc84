@@ -38,11 +38,15 @@
                         <div class="item-text-contain">
                             <div>
                                 <h3>
-                                    <?php echo get_the_title( $post_my_query->ID );?>
+                                    <a href="<?php echo get_field('resourceurl'); ?>" target="_blank">
+                                        <?php echo get_the_title( $post_my_query->ID );?>
+                                    </a>
                                 </h3>
                                
                                 <p>
-                                    <?php echo get_the_excerpt( $post_my_query->ID ); ?>
+                                    <a href="<?php echo get_field('resourceurl'); ?>" target="_blank">
+                                        <?php echo get_the_excerpt( $post_my_query->ID ); ?>
+                                    </a>
                                 </p>
                             </div> 
                         </div>
