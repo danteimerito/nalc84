@@ -341,13 +341,13 @@ const searchBar = document.getElementById('search-bar');
 const searchToggle = document.getElementById('search');
 // const searchClose = document.getElementById('search-close');
 const searchMobile = document.getElementById('search-mobile');
-const searchImage = document.getElementById('search-icon');
+// const searchImage = document.getElementById('search-icon');
 
 searchToggle.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");
   searchToggle.classList.toggle("nav-active");
-  // /wp-content/themes/nalc84/assets/images/icon-search.svg
-  searchImage.src = window.location.href + 'wp-content/themes/nalc84/assets/images/icon-search-close.svg';
+  
+  // searchImage.src = window.location.href + 'wp-content/themes/nalc84/assets/images/icon-search-close.svg';
 });
 searchMobile.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");
