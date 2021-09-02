@@ -101,7 +101,7 @@ var handbooksBtn = document.getElementById('handbooks-manuals');
 // var documentsBtn = document.getElementById('documents');
 var minutesBtn = document.getElementById('meeting-minutes');
 var presidentsBtn = document.getElementById('presidents-report');
-// var covid19Btn = document.getElementById('covid19');
+var covid19Btn = document.getElementById('covid19');
 
 var handbooksBtnMobile = document.getElementById('handbooks-manuals-mobile');
 // var documentsBtnMobile = document.getElementById('documents-mobile');
@@ -137,11 +137,11 @@ if (url.includes('/presidents-report/')) {
   presidentsBtnMobile.classList.add('current');
 }
 //covid19
-// if (url.includes('/covid19/')) {
-//   topicsBtn.classList.add('button-active');
-//   covid19Btn.classList.add('button-active');
-//   covid19BtnMobile.classList.add('current');
-// }
+if (url.includes('/covid19/')) {
+  topicsBtn.classList.add('button-active');
+  covid19Btn.classList.add('button-active');
+  // covid19BtnMobile.classList.add('current');
+}
 
 
 

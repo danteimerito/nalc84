@@ -92,7 +92,7 @@
 
                                             <ul id="dropdown3" class="dropdown-content">
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/topics/covid19">Covid-19</a>
+                                                    <a href="<?php echo get_site_url() ?>/topics/covid19" id="covid19">Covid-19</a>
                                                 </li>
                                                 <li>
                                                     <a href="<?php echo get_site_url() ?>/topics/cca">CCA's</a>
