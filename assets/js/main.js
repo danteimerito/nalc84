@@ -102,6 +102,9 @@ var handbooksBtn = document.getElementById('handbooks-manuals');
 var minutesBtn = document.getElementById('meeting-minutes');
 var presidentsBtn = document.getElementById('presidents-report');
 var covid19Btn = document.getElementById('covid19');
+var ccasBtn = document.getElementById('ccas');
+var jobBiddingBtn = document.getElementById('job-bidding');
+var retirementBtn = document.getElementById('retirement');
 
 var handbooksBtnMobile = document.getElementById('handbooks-manuals-mobile');
 // var documentsBtnMobile = document.getElementById('documents-mobile');
@@ -141,6 +144,21 @@ if (url.includes('/covid19/')) {
   topicsBtn.classList.add('button-active');
   covid19Btn.classList.add('button-active');
   // covid19BtnMobile.classList.add('current');
+}
+//ccas
+if (url.includes('/cca/')) {
+  topicsBtn.classList.add('button-active');
+  ccasBtn.classList.add('button-active');
+}
+//job bidding
+if (url.includes('/jobbidding/')) {
+  topicsBtn.classList.add('button-active');
+  jobBiddingBtn.classList.add('button-active');
+}
+//retirement
+if (url.includes('/retirement/')) {
+  topicsBtn.classList.add('button-active');
+  retirementBtn.classList.add('button-active');
 }
 
 

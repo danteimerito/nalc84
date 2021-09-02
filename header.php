@@ -95,15 +95,14 @@
                                                     <a href="<?php echo get_site_url() ?>/topics/covid19" id="covid19">Covid-19</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/topics/cca">CCA's</a>
+                                                    <a href="<?php echo get_site_url() ?>/topics/cca" id="ccas">CCA's</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/topics/jobbidding">Job Bidding</a>
+                                                    <a href="<?php echo get_site_url() ?>/topics/jobbidding" id="job-bidding">Job Bidding</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?php echo get_site_url() ?>/topics/retirement">Retirement</a>
+                                                    <a href="<?php echo get_site_url() ?>/topics/retirement" id="retirement">Retirement</a>
                                                 </li>
-
                                             </ul>
                                         </li>
 
