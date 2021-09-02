@@ -6,7 +6,7 @@
         <div class="col l9">
 
             
-            <h4 class="result-type-larger"> <?php the_field('meeting_date'); ?> </h4>
+            <div class="sans-above-header-large"> <?php the_field('meeting_date'); ?> </div>
             <h1><?php the_title(); ?></h1>
             
             
