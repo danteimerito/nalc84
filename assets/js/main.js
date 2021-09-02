@@ -341,10 +341,12 @@ const searchBar = document.getElementById('search-bar');
 const searchToggle = document.getElementById('search');
 // const searchClose = document.getElementById('search-close');
 const searchMobile = document.getElementById('search-mobile');
+const searchImage = document.getElementById('search-icon');
 
 searchToggle.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");
   searchToggle.classList.toggle("nav-active");
+  searchImage.src = '<?php echo get_template_directory_uri() ?>/assets/images/icon-search-close.svg';
 });
 searchMobile.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");

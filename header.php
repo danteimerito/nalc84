@@ -125,7 +125,7 @@
 
                                         <li class="search-icon-dekstop search-toggle-desktop" id="search">
                                             
-                                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon-search.svg" alt="Search Icon" /> 
+                                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/icon-search.svg" alt="Search Icon" id="search-icon" /> 
                                              
                                             
                                         </li>
