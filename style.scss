@@ -1657,6 +1657,9 @@ ul.event-listing {
   @media only screen and (max-width: 940px) {
     flex-direction: column;
   }
+  .item {
+    margin-bottom: 0;
+  }
 }
 .suggested-item {
   flex-basis: 28%;

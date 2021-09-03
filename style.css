@@ -1859,6 +1859,10 @@ ul.event-listing h6 {
   }
 }
 
+.other-posts-contain .item {
+  margin-bottom: 0;
+}
+
 .suggested-item {
   -ms-flex-preferred-size: 28%;
       flex-basis: 28%;
