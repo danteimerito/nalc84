@@ -60,7 +60,7 @@
                         </div>
                             
                         <div class="col l3 m12 s12 item-button-contain">
-                            <div class="details-btn">
+                            <div class="details-btn hide800">
                                 <a href="<?php the_permalink(); ?>">
                                     <div class="waves-effect waves-light btn right">View</div>
                                 </a>
