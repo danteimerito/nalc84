@@ -45,7 +45,7 @@
           <li>
             <div class="pub-image">
               <a href="<?php the_field('pub_1_pdf') ?>" target="blank">
-                <?php the_field('pub_1_image') ?>
+                <img src="<?php wp_get_attachment_url( the_field('pub_1_image') ) ?>" />
               </a>
             </div>
             <a href="<?php the_field('pub_1_pdf') ?>" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
