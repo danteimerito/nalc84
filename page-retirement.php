@@ -32,10 +32,7 @@
         </div>
 
         <div class="col l5 m11 offset-l1">
-          <h3>Retirement Contact Information</h3>
-          <p>The NALC Retirement Department can be reached by calling <a href="tel:800-424-5186">800-424-5186</a> (toll free) Monday, Wednesday or Thursday, 10 a.m.-Noon or 2 p.m.-4 p.m. (Eastern time), or by calling the NALC Headquarters switchboard at <a href="tel:202-393-4695">202-393-4695</a>  Monday through Friday, 9 a.m.-4:30 p.m. (Eastern time) and asking for the Retirement Department.</p>
-
-          <p>The USPS HR Shared Service Center (HRSSC) can be reached by current employees who are planning or applying for retirement by calling <a href="tel:877-477-3273">877-477-3273</a>, option 5.</p>
+          <?php the_field('page_right') ?>
         </div>
 
       </div>
@@ -47,13 +44,13 @@
 
           <li>
             <div class="pub-image">
-              <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/RetirementGuide-FERS.pdf" target="blank">
-                <img src="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/questions-and-answers-on-fers.png" />
+              <a href="<?php the_field('pub_1_pdf') ?>" target="blank">
+                <img src="<?php the_field('pub_1_image') ?>" />
               </a>
             </div>
-            <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/RetirementGuide-FERS.pdf" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
+            <a href="<?php the_field('pub_1_pdf') ?>" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
             <div class="pub-description">
-              Questions & Answers on FERS Federal Employees Retirement System
+            <?php the_field('pub_1_description') ?>
             </div>
           </li>
 
