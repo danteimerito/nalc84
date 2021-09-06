@@ -51,9 +51,13 @@
                                         <?php echo get_the_title( $post_my_query->ID );?>
                                     </a>
                                 </h2>
-                                <p> 
-                                    <?php echo get_the_excerpt( $post_my_query->ID );?> 
-                                </p>
+                                 
+                                <a href="<?php the_permalink();?>">
+                                    <p>
+                                        <?php echo get_the_excerpt( $post_my_query->ID );?>
+                                    </p>
+                                </a>
+                                
                             </div> 
                                
                             </div> 

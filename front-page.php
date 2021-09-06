@@ -40,8 +40,12 @@
               <a href="<?php the_permalink();?>">
                 <h2> <?php the_title(); ?> </h2>
               </a> 
-               <?php the_excerpt(); ?>
-              <div class="details-btn">
+
+              <a href="<?php the_permalink();?>">
+                <?php the_excerpt(); ?>
+              </a> 
+
+              <div class="details-btn hide800">
                 <a href="<?php the_permalink();?>">
                   <div class="waves-effect waves-light btn"> Read More </div>
                 </a> 
@@ -61,20 +65,6 @@
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <?php 
         wp_footer();
