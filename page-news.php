@@ -43,11 +43,13 @@
                                     </a>
                                 </h2>
                                
-                                <p>
-                                    <a href="<?php the_permalink();?>">
+                                
+                                <a href="<?php the_permalink();?>">
+                                    <p>
                                         <?php echo get_the_excerpt( $post_my_query->ID ); ?>
-                                    </a>
-                                </p>
+                                    </p>
+                                </a>
+                                
                             </div> 
                         </div>
                             

@@ -43,11 +43,13 @@
                                     </a>
                                 </h3>
                                
-                                <p>
-                                    <a href="<?php echo get_field('resourceurl'); ?>" target="_blank">
+                                
+                                <a href="<?php echo get_field('resourceurl'); ?>" target="_blank">
+                                    <p>
                                         <?php echo get_the_excerpt( $post_my_query->ID ); ?>
-                                    </a>
-                                </p>
+                                    </p>
+                                </a>
+                                
                             </div> 
                         </div>
                             

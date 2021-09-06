@@ -12,16 +12,11 @@
     <?php
         $ourCurrentPage = get_query_var('paged');
         $post_args=array(
-            // 'post_type'                => 'any',
             'post_type'                => array('documents'),
             'post_status'              => 'publish',
             'posts_per_page'           => 8,
             'orderby'                  => 'title',
             'order'                    => 'ASC',
-            // 'paged' => $ourCurrentPage
-
-
-
             'paged' => get_query_var('paged') ? get_query_var('paged') : 1 
         );
     
@@ -47,11 +42,13 @@
                                     </a>
                                 </h2>
                                
-                                <p>
-                                    <a href="<?php the_permalink();?>">
+                               
+                                <a href="<?php the_permalink();?>">
+                                    <p>
                                         <?php echo get_the_excerpt( $post_my_query->ID ); ?>
-                                    </a>
-                                </p>
+                                    </p>
+                                </a>
+                                
                             </div> 
                         </div>
                             

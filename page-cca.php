@@ -51,11 +51,13 @@
                                     </a>
                                 </h2>
                                
-                                <p>
-                                    <a href="<?php the_permalink();?>">
+                                
+                                <a href="<?php the_permalink();?>">
+                                    <p>
                                         <?php echo get_the_excerpt( $post_my_query->ID ); ?>
-                                    </a>
-                                </p>
+                                    </p>
+                                </a>
+                                
                             </div> 
                         </div>
                             
@@ -78,10 +80,6 @@
             <div class="contain-pagination">
                 <?php echo paginate_links(array(
                     'total' => $post_my_query->max_num_pages,
-                    // 'base'          => str_replace( 9999999999, '%#%', esc_url( get_pagenum_link( 9999999999 ) ) ),
-                    // 'format'        => '?paged=%#%',
-                    // 'current'       => max( 1, get_query_var( 'paged' ) ),
-                    // 'total'         => $wp_query->max_num_pages,
                     'end_size'      => 0,
                     'mid_size'      => 1,
                     'prev_next'     => False
