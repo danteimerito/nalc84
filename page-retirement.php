@@ -25,7 +25,7 @@
 
 <div class="container nav-spacer">
       <div class="row">
-        <h1>Retirement</h1>
+        <h1><?php the_title(); ?></h1>
 
         <div class="col l5 m11">
             <?php the_field('page_left') ?>
@@ -56,38 +56,40 @@
 
           <li>
             <div class="pub-image">
-              <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/Preparing-for-Retirement.pdf" target="blank">
-                <img src="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/preparing-for-retirement.png" />
+              <a href="<?php the_field('pub_2_pdf') ?>" target="blank">
+                <img src="<?php the_field('pub_2_image') ?>" />
               </a>
             </div>
-
-            <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/Preparing-for-Retirement.pdf" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
-
+            <a href="<?php the_field('pub_2_pdf') ?>" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
             <div class="pub-description">
-              Preparing For Retirement; Checklist for letter carriers during their final year at work</div>
-
-          </li>
-
-
-          <li>
-            <div class="pub-image">
-              <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/when-a-retired-letter-carrier-dies.pdf" target="blank">
-                <img src="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/when-a-retired-letter-carrier-dies.png"/>
-              </a>
+            <?php the_field('pub_2_description') ?>
             </div>
-            <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/when-a-retired-letter-carrier-dies.pdf" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
-            <div class="pub-description"> When a Retired Letter Carrier Dies... </div>
           </li>
 
           <li>
             <div class="pub-image">
-              <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/when-an-active-letter-carrier-dies.pdf" target="blank">
-                <img src="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/when-an-active-letter-carrier-dies.png" />
+              <a href="<?php the_field('pub_3_pdf') ?>" target="blank">
+                <img src="<?php the_field('pub_3_image') ?>" />
               </a>
             </div>
-            <a href="<?php echo get_site_url() ?>/wp-content/uploads/2021/07/when-an-active-letter-carrier-dies.pdf" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
-            <div class="pub-description"> When an Active Letter Carrier Dies... </div>
+            <a href="<?php the_field('pub_3_pdf') ?>" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
+            <div class="pub-description">
+            <?php the_field('pub_3_description') ?>
+            </div>
           </li>
+
+          <li>
+            <div class="pub-image">
+              <a href="<?php the_field('pub_4_pdf') ?>" target="blank">
+                <img src="<?php the_field('pub_4_image') ?>" />
+              </a>
+            </div>
+            <a href="<?php the_field('pub_4_pdf') ?>" target="blank" class="waves-effect waves-light btn-small pub-button">View</a>
+            <div class="pub-description">
+            <?php the_field('pub_4_description') ?>
+            </div>
+          </li>
+  
         </ul>
       </div>
     </div>
