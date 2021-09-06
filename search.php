@@ -50,11 +50,12 @@
                                     </a>
                                 </h2>
                                
-                                <p> 
-                                    <a href="<?php the_permalink();?>">
-                                        <?php echo get_the_excerpt( $post_my_query->ID ); ?>
-                                    </a>
-                                </p>
+                                <a href="<?php the_permalink();?>">
+                                    <p> 
+                                       <?php echo get_the_excerpt( $post_my_query->ID ); ?>
+                                    </p>
+                                </a>
+                                
                             </div> 
                         </div>
                             
