@@ -48,13 +48,15 @@
                                 </h2>
                                
                                 <p>
-                                    <?php echo get_the_excerpt( $post_my_query->ID ); ?>
+                                    <a href="<?php the_permalink();?>">
+                                        <?php echo get_the_excerpt( $post_my_query->ID ); ?>
+                                    </a>
                                 </p>
                             </div> 
                         </div>
                             
                         <div class="col l3 m12 s12 item-button-contain">
-                            <div class="details-btn">
+                            <div class="details-btn hide800">
                                 <a href="<?php the_permalink(); ?>">
                                     <div class="waves-effect waves-light btn right">View</div>
                                 </a>
@@ -72,10 +74,6 @@
             <div class="contain-pagination">
             <?php echo paginate_links(array(
                     'total' => $post_my_query->max_num_pages,
-                    // 'base'          => str_replace( 9999999999, '%#%', esc_url( get_pagenum_link( 9999999999 ) ) ),
-                    // 'format'        => '?paged=%#%',
-                    // 'current'       => max( 1, get_query_var( 'paged' ) ),
-                    // 'total'         => $wp_query->max_num_pages,
                     'end_size'      => 0,
                     'mid_size'      => 1,
                     'prev_next'     => False

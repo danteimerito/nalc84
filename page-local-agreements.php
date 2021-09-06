@@ -1,18 +1,6 @@
 
 <?php get_header(); ?>
 
-<?php
-    
-
-
-    // put ao's in alphabetical order
-    // sort($aos);
-    // total number of aos    
-    // $aoslength = count($aos);
-    
-?>
-
-
 <div class="container nav-spacer">
     <h1> Local Memorandums of Understanding </h1>
     <?php echo $aos; ?>
@@ -77,19 +65,6 @@
         <option value="/documents/lmou-washington/">Washington</option>
         <option value="/documents/lmou-waynesburg/">Waynesburg</option>
         <option value="/documents/lmou-zelienople/">Zelienople</option>
-
-
-
-        
-
-    <?php
-        //generate a select option for each office in the array
-        // for($x = 0; $x < $aoslength; $x++) {
-        //     strtoupper($aos[$x]); 
-        // // echo  "<option value=".$aos[$x].">$aos[$x]</option>";
-        // echo "<option id=".$aos[$x]." value=".$aos[$x].">$aos[$x]</option>";
-        // }
-    ?>
 
     </select>
     </br>

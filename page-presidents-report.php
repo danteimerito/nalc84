@@ -1,13 +1,6 @@
 
 <?php get_header(); ?>
 
-<!-- <div class="row  color-reverse-darker"> 
-    <div class="container page-header-spacer"> 
-        <h3> <?php the_title(); ?> </h3>
-    </div>
-</div> -->
-
-
 <div class="container nav-spacer">
      
     <?php 
