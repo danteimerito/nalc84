@@ -354,16 +354,19 @@ myMenu = new SDMenu("my_menu");
 myMenu.init(); // };
 // END SD MENU
 
-// Toggle Search Bar
+// Toggle Search
 const searchBar = document.getElementById('search-bar');
 const searchToggle = document.getElementById('search');
 // const searchClose = document.getElementById('search-close');
 const searchMobile = document.getElementById('search-mobile');
 // const searchImage = document.getElementById('search-icon');
+const searchInput = document.getElementById('s');
 
 searchToggle.addEventListener('click', function () {
   searchBar.classList.toggle("search-visible");
   searchToggle.classList.toggle("nav-active");
+  searchInput.focus();
+
   
   // searchImage.src = window.location.href + 'wp-content/themes/nalc84/assets/images/icon-search-close.svg';
 });
