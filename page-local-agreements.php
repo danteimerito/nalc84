@@ -27,7 +27,7 @@
         <option value="/documents/lmou-braddock/">Braddock</option>
         <option value="/documents/lmou-bridgeville/">Bridgeville</option>
         <option value="/documents/lmou-burgettstown/">Burgettstown</option>
-        <option value="/documents/lmou-cannonsburg/">Cannonsburg</option>
+        <option value="/documents/lmou-canonsburg/">Cannonsburg</option>
         <option value="/documents/lmou-cheswick/">Cheswick</option>
         <option value="/documents/lmou-clairton/">Clairton</option>
         <option value="/documents/lmou-coraopolis/">Coraopolis</option>
