@@ -69,10 +69,7 @@
                                         <li>
                                             <button id="trigger-2" class="dropdown-trigger" data-target="dropdown2">Local 84</button>
                                             <ul id="dropdown2" class="dropdown-content">
-                                                <li>
-                                                    <a href="<?php echo get_site_url() ?>/local84/about">About Branch 84</a>
-                                                </li>
-
+                                                
                                                 <li>
                                                     <a href="<?php echo get_site_url() ?>/local84/presidents-report" id="presidents-report">President's Report</a>
                                                 </li>
@@ -177,7 +174,6 @@
 
                                                     <div class="">
                                                         <span class="multi">Local 84</span>
-                                                        <a href="<?php echo get_site_url() ?>/local84/about/">About Branch 84</a>
                                                         <a href="<?php echo get_site_url() ?>/local84/presidents-report/" id="presidents-mobile">President's Report</a>
                                                         <a href="<?php echo get_site_url() ?>/local84/local-agreements/">Local Agreements</a>
                                                         <a href="<?php echo get_site_url() ?>/local84/meeting-minutes/" id="minutes-mobile">Meeting Minutes</a>
