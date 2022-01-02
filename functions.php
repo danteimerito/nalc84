@@ -35,7 +35,7 @@
 function my_login_logo() { ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-            background-image: url(https://digital-hideaway.com/wp-content/themes/nalc84/assets/images/nalc-logo-badge-type-2.svg);
+            background-image: url(https://branch84.org/wp-content/themes/nalc84/assets/images/nalc-logo-badge-type-2.svg);
             height: 65px;
             width: 320px;
             background-size: 320px 65px;
