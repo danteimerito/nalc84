@@ -27,9 +27,6 @@
                             <div class="btn document-button"> View Document </div>
                         </a>
 
-                        <a href="<?php echo get_site_url() ?>/documents/">
-                            <button class="btn document-button">All Documents</button>
-                        </a>
                     </div>
                     
                 </div>
