@@ -1899,6 +1899,10 @@ blockquote {
   width: 75%;
 }
 
+.item-text-contain h2 {
+  margin-bottom: -0.5rem;
+}
+
 @media only screen and (max-width: 800px) {
   .item-text-contain {
     width: 100%;
