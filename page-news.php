@@ -12,8 +12,8 @@
     <?php
         $ourCurrentPage = get_query_var('paged');
         $post_args=array(
-            // 'post_type'                => 'any',
-            'post_type'                => array('post', 'presidents-report'),
+            'post_type'                => 'any',
+            // 'post_type'                => array('post', 'presidents-report', 'documents'),
             'category_name'            => 'news',
             'post_status'              => 'publish',
             'posts_per_page'           => 8,
