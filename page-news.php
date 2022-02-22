@@ -14,6 +14,7 @@
         $post_args=array(
             // 'post_type'                => 'any',
             'post_type'                => array('post', 'presidents-report'),
+            'category_name'            => 'news',
             'post_status'              => 'publish',
             'posts_per_page'           => 8,
             'orderby'                  => 'date',
